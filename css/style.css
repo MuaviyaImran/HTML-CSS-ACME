@@ -309,6 +309,7 @@ footer .fab {
 }
 .product li img {
   width: 100%;
+
   border-radius: 10px;
 }
 .product .content {
@@ -384,6 +385,9 @@ footer .fab {
   .main,
   .product li {
     flex-basis: 48%;
+  }
+  .product li img {
+    height: 500px;
   }
 }
 
