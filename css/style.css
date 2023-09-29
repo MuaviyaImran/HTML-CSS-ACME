@@ -1,7 +1,7 @@
 :root {
-  --color1: #eb5757;
-  --color2: #222222;
-  --color3: #333333;
+  --orange: #eb5757;
+  --black: #222222;
+  --grey: #333333;
 }
 
 /* generic site styles */
@@ -22,12 +22,12 @@ body {
   margin: 0;
 }
 header {
-  background-color: var(--color2);
+  background-color: var(--black);
   color: white;
 }
 
 header nav {
-  background-color: var(--color1);
+  background-color: var(--orange);
 }
 nav ul,
 footer ul {
@@ -64,7 +64,7 @@ nav li i {
   font-size: larger;
 }
 nav li:hover {
-  color: var(--color2);
+  color: var(--black);
 }
 nav li:first-child {
   flex-basis: 100%;
@@ -85,7 +85,7 @@ nav ul li {
 }
 .intro .content {
   font-size: 1.5rem;
-  text-shadow: 2px 2px var(--color1);
+  text-shadow: 2px 2px var(--orange);
 }
 .intro .content p {
   max-width: 400px;
@@ -96,7 +96,7 @@ nav ul li {
 .intro h3 {
   letter-spacing: 1.8px;
   font-size: 2em;
-  text-shadow: 2px 2px var(--color1);
+  text-shadow: 2px 2px var(--orange);
 }
 .intro p {
   margin: 0;
@@ -112,7 +112,7 @@ nav ul li {
   padding: 0.6rem 2rem;
   border-radius: 10px;
   border: none;
-  text-shadow: 2px 2px var(--color1);
+  text-shadow: 2px 2px var(--orange);
   cursor: pointer;
   border: 2px solid white;
   color: white;
@@ -130,7 +130,7 @@ nav ul li {
   color: black;
 }
 .support {
-  color: var(--color3);
+  color: var(--grey);
   display: flex;
   padding-left: 10px;
   padding-right: 10px;
@@ -158,7 +158,7 @@ header section div h2 {
   display: inline-block;
   margin: 0;
   font-size: large;
-  background-color: var(--color1);
+  background-color: var(--orange);
   padding: 10px 35px;
   border-radius: 25px;
   cursor: pointer;
@@ -176,7 +176,7 @@ header section div {
 .support-figure .box {
   min-height: 280px;
   min-width: 280px;
-  background-color: var(--color2);
+  background-color: var(--black);
   padding: 50px;
   color: white;
 }
@@ -249,7 +249,7 @@ header section div {
   justify-content: right;
 }
 .our-statement button:hover {
-  background-color: var(--color1);
+  background-color: var(--orange);
   color: white;
 }
 
@@ -262,7 +262,7 @@ header section div {
   margin-left: auto;
 }
 footer {
-  background-color: var(--color2);
+  background-color: var(--black);
   color: white;
   font-weight: bolder;
   padding: 20px 0px 20px 0px;
@@ -279,7 +279,7 @@ footer li {
 
 footer i:hover,
 footer li span:hover {
-  color: var(--color1);
+  color: var(--orange);
 }
 #cp {
   justify-content: center;
@@ -290,7 +290,7 @@ footer .fab {
   font-size: 2rem;
 }
 #cp span {
-  color: var(--color1);
+  color: var(--orange);
   text-decoration: underline;
 }
 .product {
@@ -321,7 +321,7 @@ footer .fab {
 .product .content button {
   margin-top: 15px;
   padding: 15px 25px;
-  background-color: var(--color1);
+  background-color: var(--orange);
   border-radius: 6px;
   border: none;
   font-weight: bold;
@@ -331,7 +331,7 @@ footer .fab {
   transition: 0.4s ease-in-out;
 }
 .product .content button:hover {
-  background-color: var(--color2);
+  background-color: var(--black);
 }
 #price {
   font-size: smaller;
